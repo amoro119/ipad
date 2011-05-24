@@ -185,24 +185,41 @@ a:hover { color: #8fb931; }
 ul{list-style:none;}
 .last{border:0 !important;}
 .grey{color:#9d9d9d;}
+.blue{color:#00a9d9;font-weight:bold;background: url('../img/hook.gif') no-repeat 0 0 !important;}
+.no-bg{background:none !important;}
 /**
  * Primary styles
  *
  * Author: Eric
  */
 body{background:#fff;font-family:Arial,Helvetica,sans-serif,simhei;font-size:12px;}
-.container { margin:0; width:1024px;height:768px;position:relative;}
+.wrap{width:1024px;height:768px;overflow:auto ;}
+.innerwrap{width:18000px;height:768px;}
+.container { margin:0; width:1024px;height:768px;position:relative;float:left;}
 .page1{background: url('../img/1.png') no-repeat 0 0;}
 .page2{background: url('../img/2.png') no-repeat 0 0;}
 .page3{background: url('../img/3.png') no-repeat 0 0;}
 .page4{background: url('../img/4.png') no-repeat 0 0;}
 .page5{background: url('../img/5.png') no-repeat 0 0;}
 .page6{background: url('../img/6.png') no-repeat 0 0;}
+.page7{background: url('../img/7.png') no-repeat 0 0;}
+.page8{background: url('../img/8.png') no-repeat 0 0;}
+.page9{background: url('../img/9.png') no-repeat 0 0;}
+.page10{background: url('../img/10.png') no-repeat 0 0;}
 .page11{background: url('../img/11.png') no-repeat 0 0;}
 .start{top:413px;left:262px;}
 .back{top:492px;left:216px;}
 .next{top:490px;left:201px;}
 .container form{position:absolute;left:75px;top:283px;}
+.page10 form {left:0;top:0;}
+.page10 form input{position:absolute;height:28px;}
+#name{left:231px;top:225px;width:153px;}
+#code{left:569px;top:225px;width:66px;}
+#hospital{left:231px;top:284px;width:266px;}
+#rank{left:569px;top:284px;width:66px;}
+#tel{width:404px;top:343px;left:231px;}
+#email{width:404px;top:403px;left:231px;}
+.page10 .next{left:232px;}
 
 
 /**
